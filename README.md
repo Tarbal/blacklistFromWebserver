@@ -27,7 +27,7 @@ Enter the following commands in your Linux terminal within the directory of the 
 add2Blacklist.sh;
 exit 0;
 
-• Now, it will run every time you restart your server
+• Now, "sudo chmod a+x /etc/rc.local" and it will run every time you restart your server
 
 • To block additional ip addresses, enter "echo 'ip.add.re.ss' >> ~/blackList/blacklist.txt" and they will be blocked upon next reboot
 
