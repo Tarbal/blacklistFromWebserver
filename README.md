@@ -20,7 +20,11 @@ Enter the following commands in your Linux terminal within the directory of the 
 
 • If /etc/rc.local does not exist, create it
 
-• Put the following command at the end of /etc/rc.local: add2Blacklist.sh
+• Write the following to /etc/rc.local:
+
+#!/bin/bash -e
+add2Blacklist.sh;
+exit 0;
 
 • Now, it will run every time you restart your server
 
