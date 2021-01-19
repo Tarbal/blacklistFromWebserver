@@ -23,6 +23,7 @@ Enter the following commands in your Linux terminal within the directory of the 
 • Write the following to /etc/rc.local:
 
 #!/bin/bash -e
+
 add2Blacklist.sh;
 exit 0;
 
