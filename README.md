@@ -30,5 +30,14 @@ exit 0;
 
 • To block additional ip addresses, enter "echo 'ip.add.re.ss' >> ~/blackList/blacklist.txt" and they will be blocked upon next reboot
 
+• Some additional troublesome ip addresses which I have had to ban are included in the blistFromFail2Ban text file
+
+• The ip nodes from associated countries were gathered from the country.db file which I retrieved from some site out there somewhere...
+
+• Other countries can be blocked by utilizing the grep command with the appropriate country code.
+
+• For example, "grep sg ~/blackList/country.db | xargs awk '{print $1}' >> ~/blackList/blacklist.txt" will append Singapore's 
+relevant ip nodes to the blacklist file.
+
 • EZ...
 
