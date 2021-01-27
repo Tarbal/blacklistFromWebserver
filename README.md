@@ -1,3 +1,5 @@
+Update 1/27/21: I have decided that everyone should come up with their own lists. My moral code dictates that publicly blacklisting addresses or individuals is bad practice in any field. 
+
 Blacklist ipv4 addresses from a list within a text file. 
 
 Blacklist many key ip nodes of China, Russia, and North Korea from your web server (or, just your Linux desktop environment)
